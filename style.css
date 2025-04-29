@@ -1,0 +1,97 @@
+/* style.css */
+body {
+    background-color: #fdf6f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  h2 {
+    color: #6f42c1; /* A gentle purple */
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: #b089f0 !important;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .dropdown-item:hover {
+    background-color: #a174e5 !important;
+    color: #fff !important;
+  }
+  
+  .dropdown-menu {
+    background-color: #f3e8ff;
+  }
+  
+  .dropdown-item {
+    color: #6f42c1 !important;
+  }
+  
+  .card {
+    background-color: #fff6fb;
+    border: none;
+    border-left: 5px solid #e0b3ff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  footer {
+    background-color: #b089f0;
+    color: white;
+  }
+  
+  footer a {
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border-radius: 0.5rem;
+    border: 1px solid #d0c1e3;
+    padding: 0.6rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #5a35a5;
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .card-text {
+      font-size: 1rem;
+    }
+  }
+  
