@@ -1,4 +1,4 @@
-/* style.css */
+/*DEVELOPER: Gissele Hinojosa, IS117-002, Spring 2025*/
 body {
     background-color: #fdf6f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,7 +6,7 @@ body {
   }
   
   h2 {
-    color: #6f42c1; /* A gentle purple */
+    color: #6f42c1; 
     font-weight: bold;
   }
   
@@ -94,4 +94,3 @@ body {
       font-size: 1rem;
     }
   }
-  
